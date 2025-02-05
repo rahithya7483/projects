@@ -1,0 +1,10 @@
+project architecture
+project/
+│── static/                     # Static files (images, CSS, JS)
+│   └── uploads/ fingerprintdataset   
+     ── styles.css  
+│── templates/                   # HTML templates for web UI
+│   └── index.html               # Main UI file
+│── blood_group_model.h5 or blood_group_cnn_model.h5 # Your trained model
+│── app.py(change the title in the code according to your favorable model(either blood_group_cnn_model or blood_group_model(both are cnn with different no.of epochs))) # Flask app script (backend)
+│── requirements.txt              # Required Python packages
