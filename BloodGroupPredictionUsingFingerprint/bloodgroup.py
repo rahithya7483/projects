@@ -81,7 +81,7 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
-# Train the model
+# Train the model with your convinent no.of epochs
 history = model.fit(X_train, y_train, epochs=20, validation_data=(X_test, y_test), batch_size=32)
 
 
