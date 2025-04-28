@@ -1,0 +1,8 @@
+project/
+│── static/                     # Static files (images, CSS, JS)
+│   └── css/ styles.css     
+│── templates/                   # HTML templates for web UI
+│   └── index.html               # Main UI file
+│── rwc_net.h5 # Your trained model which is converted to .h5 file
+│── app.py  # Flask app script (backend)
+│── requirements.txt (optional)
